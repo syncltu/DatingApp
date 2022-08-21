@@ -13,7 +13,7 @@ namespace API.Entities
         public byte[] PasswordHash{get;set;}
         public byte[] PasswordSalt{get;set;}
         public DateTime DateOfBirth { get; set; }
-        public DateTime Create{get;set;}=DateTime.Now;
+        public DateTime Created{get;set;}=DateTime.Now;
         public DateTime LastActive{get;set;}
         public string KnownAs{get;set;}
 
